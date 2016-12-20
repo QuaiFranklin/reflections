@@ -17,3 +17,7 @@ Some situations when branches would be helpful in keeping your history organized
 How do the diagrams help you visualize the branch structure?
 
 Diagrams help you visualize the branch structure by simplifying the hierarchical structure. It's easier to grok the concepts of branches and commits and their parents, if they're points with arrows pointing backwards (to the left) to their parents.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is that git combines the commits since the new branch was created with the branch it's being merged into (typically the master). We represent it in the diagram by creating a new master branch tip that points to the last commits on the merged branches as its parents because all those commmits and their ancestors are part of the new merged branch.
