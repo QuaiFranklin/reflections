@@ -13,3 +13,7 @@ You use the staging area to make sure you have one commit per logical change, by
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Some situations when branches would be helpful in keeping your history organized include branches in other languages, branches with different optional features or ease of use, or an experimental new additional feature.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help you visualize the branch structure by simplifying the hierarchical structure. It's easier to grok the concepts of branches and commits and their parents, if they're points with arrows pointing backwards (to the left) to their parents.
