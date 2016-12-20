@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a Git repository it sets up a .git folder and prepares the current directory for commits 
